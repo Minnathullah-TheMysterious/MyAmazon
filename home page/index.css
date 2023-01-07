@@ -1,0 +1,99 @@
+/* navbar --> 1 */
+.navbar1{
+    display: flex;
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100%;
+}
+.brandLogo{
+    width: 150px;
+}
+.brandLogo img{
+    height: 100%;
+    width: 150px;
+}
+.brandLogo img:hover{
+    border: 2px solid white;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.deliverByCountry{
+    width: 120px;
+    height: 100%;
+}
+.deliverByCountry>a:link{
+    text-decoration: none;
+    text-align: center;
+}
+.deliverByCountry>a{
+    color: white;
+}
+.deliverByCountry>a:hover{
+    color: white;
+    border: 2px solid white;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.navDBC{
+    display: flex;
+}
+.DBClogo{
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 24px;
+}
+.DBCtext{
+    width: 100px;
+    margin-top: 5px;
+}
+
+.categories{
+    width: 60px;
+    border: 2px solid red;
+}
+.searchBar{
+    width: 650px;
+    border: 2px solid red;
+}
+.searchLogo{
+    width: 50px;
+    border: 2px solid red;
+}
+.changeLanguage{
+    width: 100px;
+    border: 2px solid red;
+}
+.yourAccount{
+    width: 170px;
+    border: 2px solid red;
+}
+.orders{
+    width: 130px;
+    border: 2px solid red;
+}
+.cart{
+    width: 120px;
+    border: 2px solid red;
+}
+
+/* navbar --> 2 */
+.navbar2{
+    border: 3px solid black;
+    /* background-color: #303f3fd6;;
+    color: white; */
+    height: 50px;
+    width: 100%;
+}
+
+
+/* crousal --> 1 */
+.crousal1{
+    border: 3px solid black;
+    height: 300px;
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
