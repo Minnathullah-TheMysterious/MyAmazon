@@ -209,13 +209,24 @@
 
 
 /* navbar --> 2 */
-.navbar2{
-    border: 3px solid black;
-    /* background-color: #303f3fd6;;
-    color: white; */
+.navbar{
     height: 50px;
-    width: 100%;
+    display: flex;
 }
+.navbar-brand:hover{
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.nav-link:hover{
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.rightCorn{
+    width: 200px;
+    margin-left: 1250px;
+    position: absolute;
+}
+
 
 
 /* crousal --> 1 */
