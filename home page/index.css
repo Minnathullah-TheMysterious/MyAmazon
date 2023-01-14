@@ -1,3 +1,4 @@
+
 /* navbar --> 1 */
 .navbar1{
     display: flex;
@@ -242,7 +243,7 @@
 
 
 /* local amazon */
-.localAmazon{
+#localAmazon{
     margin-top: -380px;
     position: relative;
     background-color: white;
@@ -252,51 +253,51 @@
     margin-left: 35px;
     font-size: 17px;
 }
-.localAmazon a{
+#localAmazon a{
     text-decoration: none;
     color: gray;
 }
-.localAmazon a:hover{
+#localAmazon a:hover{
     text-decoration: underline;
     color: rgb(212, 61, 50);
 }
 
 
 /* card1 */
-.card1{
+#card1{
     display: flex;
     margin-top: 15px;
     margin-left: 17px;
     width: 1460px;
     flex-wrap: wrap;
 }
-.card{
+#card1 .card{
     width: 345px;
     margin-left: 20px;
     margin-top: 20px;
 }
-.card-body img{
+#card1 .card-body img{
     width: 300px;
     height: 320px;
 }
-.card-link a{
+#card1 .card-link a{
     text-decoration: none;
     margin-left: 50px;
     color: blueviolet;
 }
-.card-link a:hover{
+#card1 .card-link a:hover{
     text-decoration: underline;
     color: rgb(212, 61, 50);
 }
-.card1-flex{
+#card1 .card1-flex{
     display: flex;
     flex-wrap: wrap;
 }
-.card1-flex img{
+#card1 .card1-flex img{
     height: 130px;
     width: 145px;
 }
-.card1-flex-item{
+#card1 .card1-flex-item{
     border: 1px solid rgb(240, 213, 213);
     height: 160px;
     width: 150px;
@@ -304,3 +305,225 @@
     margin-top: 5px;
     margin-left: 5px;
 }
+
+
+/* card2 */
+#card2 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card2 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card2 .card-body img{
+    margin-left: 20px;
+}
+
+
+/* card3 */
+#card3 .card-title{
+    font-size: 20px;
+    font-weight:bold;
+}
+#card3 .card-header a{
+    text-decoration: none;
+    color: blueviolet;
+}
+#card3 .card-header a:hover{
+    text-decoration: underline;
+    color:rgb(212, 61, 50) ;
+}
+#card3 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card3 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card3 .card-body img{
+    margin-left: 31px;
+}
+
+
+/* card4 */
+#card4{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 17px;
+    width: 1460px;
+    flex-wrap: wrap;
+}
+#card4 .card{
+    width: 345px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#card4 .card-body img{
+    width: 300px;
+    height: 320px;
+}
+#card4 .card-link a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: blueviolet;
+}
+#card4 .card-link a:hover{
+    text-decoration: underline;
+    color: rgb(212, 61, 50);
+}
+
+
+/* card5 */
+#card5 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card5 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card5 .card-body img{
+    margin-left: 30px;
+}
+
+
+/* card6 */
+#card6 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card6 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card6 .card-body img{
+    margin-left: 30px;
+}
+
+
+
+/* card7 */
+#card7{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 17px;
+    width: 1460px;
+    flex-wrap: wrap;
+}
+#card7 .card{
+    width: 345px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#card7 .card-body img{
+    width: 300px;
+    height: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#card7 .card-link a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: blueviolet;
+}
+#card7 .card-link a:hover{
+    text-decoration: underline;
+    color: rgb(212, 61, 50);
+}
+#card7 .card-body{
+    overflow-x: hidden;
+}
+#card7 .card7-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+#card7 .card7-flex img{
+    height: 130px;
+    width: 145px;
+}
+#card7 .card7-flex-item{
+    height: 145px;
+    width: 140px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+/* card8 */
+#card8 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card8 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card8 .card-body img{
+    margin-left: 30px;
+}
+
+
+/* card9 */
+#card9 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card9 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card9 .card-body img{
+    margin-left: 30px;
+}
+
+
+/* signin */
+#signin{
+    height: 150px;
+    width: 100%;
+    border: 1px solid rgb(182, 164, 164);
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+#signin p{
+    margin-top: 30px;
+}
+#signin div button{
+    width: 270px;
+    border-radius: 4px;
+    background-color: rgb(210, 245, 54);
+}
+#signin a{
+    text-decoration: none;
+    color: rgb(7, 91, 151);
+    font-weight: bold;
+    
+}
+
+
+
+
+
