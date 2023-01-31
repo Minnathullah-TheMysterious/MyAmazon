@@ -1,0 +1,742 @@
+body{
+    background-color: rgb(206, 232, 250) !important;
+}
+/* navbar --> 1 */
+.navbar1{
+    display: flex;
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: 100%;
+}
+.brandLogo{
+    width: 150px;
+}
+.brandLogo img{
+    height: 100%;
+    width: 150px;
+}
+.brandLogo img:hover{
+    border: 2px solid white;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.deliverByCountry{
+    width: 120px;
+    height: 100%;
+}
+.deliverByCountry>a:link{
+    text-decoration: none;
+    text-align: center;
+}
+.deliverByCountry>a{
+    color: white;
+}
+.deliverByCountry>a:hover{
+    color: white;
+    border: 2px solid white;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 100%;
+}
+.navDBC{
+    display: flex;
+}
+.DBClogo{
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 24px;
+}
+.DBCtext{
+    width: 100px;
+    margin-top: 5px;
+}
+
+.categories{
+    width: 60px;
+}
+#menu{
+    width:55px ;
+    height: 40px;
+    margin-top: 10px;
+    background-color: beige;
+}
+#menu:hover{
+    cursor: pointer;
+}
+
+.searchBar{
+    width: 650px;
+}
+.searchBar input{
+    height:40px;
+    margin-top:9.5px;
+    width: 650px;
+    margin-left:-5px;
+}
+
+.searchLogo{
+    width: 50px;
+    height: 61.3%;
+    margin-top: 10.19px;
+    background-color: rgb(195, 195, 4);
+}
+.searchLogo i{
+    font-size: 23px;
+    margin-left: 10px;
+    color: black;
+}
+.searchLogo:hover{
+    cursor: pointer;
+}
+
+
+.changeLanguage{
+    width: 100px;
+    display: flex;
+    margin-left: 10px;
+}
+.changeLanguage:hover{
+    cursor: pointer;
+}
+.americanFlag{
+    width: 50%;
+}
+.americanFlag img{
+    height: 17px;
+    width: 25px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.language{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: -10px;
+}
+#diffLanguages{
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+#diffLanguages:hover{
+    cursor: pointer;
+}
+.changeLanguage:hover{
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+
+.yourAccount{
+    width: 170px;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+.yourAccount:hover{
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+#signinDropdown:hover{
+    cursor: pointer;
+}
+#hello-signin{
+    font-size: 14px;
+}
+#signinDropdown{
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    border:1px solid black;
+}
+
+.returnsOrders{
+    width: 130px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.returnsOrders:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.returnsOrders a{
+    text-decoration: none;
+    color: white;
+}
+.returnsOrders a:hover{
+    color: white;
+}
+#returns{
+    font-size: 14px;
+}
+#orders{
+    font-weight: bolder;
+}
+
+
+.cart{
+    width: 120px;
+    padding: 10px;
+}
+.cart a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.cart a:hover{
+    color:white;
+}
+.cart:hover{
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.cartLogo{
+    height: 100%;
+    width: 55%;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.cartText{
+    height: 100%;
+    width: 45%;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 10px;
+    
+}
+
+
+/* navbar --> 2 */
+.navbar{
+    height: 50px;
+    display: flex;
+}
+.navbar-brand:hover{
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.nav-link:hover{
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.rightCorn{
+    width: 200px;
+    margin-left: 1250px;
+    position: absolute;
+}
+
+
+
+/* crousal --> 1 */
+.carousel-item img{
+    height: 600px;
+    margin-left: 17px;
+}
+#carouselExampleControls button{
+    height: 220px;
+    width: 150px;
+}
+ 
+
+
+/* local amazon */
+#localAmazon{
+    margin-top: -380px;
+    position: relative;
+    background-color: white;
+    height: 50px;
+    width: 95%;
+    text-align: center;
+    margin-left: 35px;
+    font-size: 17px;
+}
+#localAmazon p{
+    margin-top: 12px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+}
+#localAmazon a{
+    text-decoration: none;
+    color: gray;
+}
+#localAmazon a:hover{
+    text-decoration: underline;
+    color: rgb(212, 61, 50);
+}
+
+
+/* card1 */
+#card1{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 17px;
+    width: 1460px;
+    flex-wrap: wrap;
+}
+#card1 .card{
+    width: 345px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#card1 .card-body img{
+    width: 300px;
+    height: 320px;
+}
+#card1 .card-link a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: blueviolet;
+}
+#card1 .card-link a:hover{
+    text-decoration: underline;
+    color: rgb(212, 61, 50);
+}
+#card1 .card1-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+#card1 .card1-flex img{
+    height: 130px;
+    width: 145px;
+}
+#card1 .card1-flex-item{
+    border: 1px solid rgb(240, 213, 213);
+    height: 160px;
+    width: 150px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+/* card2 */
+#card2 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card2 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card2 .card-body img{
+    margin-left: 20px;
+}
+
+
+/* card3 */
+#card3 .card-title{
+    font-size: 20px;
+    font-weight:bold;
+}
+#card3 .card-header a{
+    text-decoration: none;
+    color: blueviolet;
+}
+#card3 .card-header a:hover{
+    text-decoration: underline;
+    color:rgb(212, 61, 50) ;
+}
+#card3 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card3 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card3 .card-body img{
+    margin-left: 31px;
+}
+
+
+/* card4 */
+#card4{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 17px;
+    width: 1460px;
+    flex-wrap: wrap;
+}
+#card4 .card{
+    width: 345px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#card4 .card-body img{
+    width: 300px;
+    height: 320px;
+}
+#card4 .card-link a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: blueviolet;
+}
+#card4 .card-link a:hover{
+    text-decoration: underline;
+    color: rgb(212, 61, 50);
+}
+
+
+/* card5 */
+#card5 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card5 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card5 .card-body img{
+    margin-left: 30px;
+}
+
+
+/* card6 */
+#card6 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card6 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card6 .card-body img{
+    margin-left: 30px;
+}
+
+
+
+/* card7 */
+#card7{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 17px;
+    width: 1460px;
+    flex-wrap: wrap;
+}
+#card7 .card{
+    width: 345px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#card7 .card-body img{
+    width: 300px;
+    height: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#card7 .card-link a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: blueviolet;
+}
+#card7 .card-link a:hover{
+    text-decoration: underline;
+    color: rgb(212, 61, 50);
+}
+#card7 .card-body{
+    overflow-x: hidden;
+}
+#card7 .card7-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+#card7 .card7-flex img{
+    height: 130px;
+    width: 145px;
+}
+#card7 .card7-flex-item{
+    height: 145px;
+    width: 140px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+/* card8 */
+#card8 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card8 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card8 .card-body img{
+    margin-left: 30px;
+}
+
+
+/* card9 */
+#card9 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card9 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card9 .card-body img{
+    margin-left: 30px;
+}
+
+
+/* card 10 */
+#card10 .card{
+    width: 94.8%;
+    margin-left: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+#card10 .card-header a{
+    text-decoration: none;
+    color: blueviolet;
+}
+#card10 .card-header a:hover{
+    text-decoration: underline;
+    color:rgb(212, 61, 50) ;
+}
+#card10 .card-body{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+#card10 .card-body img{
+    margin-left: 30px;
+}
+
+
+/* signin */
+#signin{
+    height: 150px;
+    width: 100%;
+    border: 1px solid rgb(182, 164, 164);
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: azure;
+    line-height: 20px;
+}
+#signin p{
+    margin-top: 30px;
+}
+#signin div button{
+    width: 270px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: rgba(247, 211, 8, 0.756);
+    border: none;
+}
+#signin a{
+    text-decoration: none;
+    color: rgb(7, 91, 151);
+    font-weight: bold;
+}
+
+
+/* Back To Top */
+#backToTop{
+    height: 50px;
+    width: 100%;
+    background-color:#34465c ;
+    text-align: center;
+   
+}
+#backToTop a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 12px;
+}
+
+
+/* naigation area-1 */
+#navigateArea1{
+    width: 100%;
+    height: 350px;
+    border:1px solid black;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+}
+.getToKnowUs{
+    height: 300px;
+    width: 250px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.getToKnowUs a{
+    display: block;
+    color: rgb(170, 142, 142);;
+    text-decoration: none;
+}
+.getToKnowUs a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.makeMoneyWithUs{
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+}
+.makeMoneyWithUs a{
+    display: block;
+    color: rgb(170, 142, 142);;
+    text-decoration: none;
+}
+.makeMoneyWithUs a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.amazonPaymentProducts{
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+}
+.amazonPaymentProducts a{
+    display: block;
+    color: rgb(170, 142, 142);
+    text-decoration: none;
+}
+.amazonPaymentProducts a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.letUsHelpYou{
+    height: 300px;
+    width: 250px;
+    margin-top: 50px;
+}
+.letUsHelpYou a{
+    display: block;
+    color: rgb(170, 142, 142);;
+    text-decoration: none;
+}
+.letUsHelpYou a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+/* navigate area-2 */
+#navigateArea2{
+    width: 100%;
+    height: 100px;
+    background-color:#232F3E ;
+}
+#navigateArea2 a img{
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 350px;
+    position: absolute;
+}
+#navigateArea2 a{
+    text-decoration: none;
+    color: white;
+}
+#navigateArea2 button{
+    background-color: #232F3E;
+    border: 1px solid white;
+    margin-left: 50px;
+    border-radius: 2px;
+}
+#navigateArea2 .firstButton{
+    background-color: #232F3E;
+    border: 1px solid white;
+    margin-left: 600px;
+    border-radius: 2px;
+    margin-top: 35px;
+}
+
+
+/* navigation area-3 */
+#navigateArea3{
+    width: 100%;
+    height: 630px;
+    background-color: rgb(30, 28, 31);
+    color: white;
+    display: flex;
+}
+.navigateArea3-flexBox{
+    height: 450px;
+    width: 170px;
+    /* border: 2px solid white; */
+    margin-top: 50px;
+}
+.navigateArea3-flexBox1{
+    margin-left: 180px;
+}
+.navigateArea3-innerBox{
+    height: 90px;
+    width: 65%;
+    /* border: 1px solid red; */
+    line-height: 12px;
+    display: block;
+}
+.navigateArea3-innerBox a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(205, 196, 196);
+    
+}
+.navigateArea3-innerBox a:hover{
+    text-decoration: underline;
+    color: rgb(205, 196, 196);;
+}
+.navigateArea3-innerBox a b{
+    color: white !important;
+}
+.conditionPrivacy{
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    /* border: 2px solid red; */
+    margin-top: 500px;
+    text-align: center;
+}
+.conditionPrivacy a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-top: 35px;
+    display: inline-block;
+    margin-left: 25px;
+}
+.conditionPrivacy a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
